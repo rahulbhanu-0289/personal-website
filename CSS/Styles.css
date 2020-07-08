@@ -1,0 +1,537 @@
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+h1 {
+  /*1 em = 16 px*/
+  font-size: 5.625rem;
+  /* rem is root ...for no other scaling*/
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 2;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+.h2-Blogrow{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.h2-post{
+  margin-top: 100px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.h3-Blogrow {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.h3-Statistics{
+  font-size: 1.5rem;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: normal;
+}
+
+.p-statistics{
+  font-size: 3.5rem;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-weight: normal;
+}
+
+.p-statisticsIndutries{
+  font-size: 1.5rem;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-weight: normal;
+}
+
+.h4-Blogrow {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding-bottom: 100px;
+}
+
+
+
+hr {
+  border: dotted #dbdbdb 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link{
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  text-decoration: underline;
+}
+
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.nav-a:hover{
+  color: #11999E;
+  text-decoration: underline;
+}
+
+/**********Class*******/
+.Header {
+  background-color: #def4f0;
+  padding-top: 400px;
+  padding-bottom: 50px;
+}
+
+.Blogs-Header {
+  background-color: #def4f0;
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.MyCreations-Header{
+  background-color: #def4f0;
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.Blogs-Mid {
+  background-color: #ffffff;
+  height: 480px;
+  text-align: center;
+}
+
+.Blogs-Mid-text{
+  background-color: #ffffff;
+  height: 2280px;
+  text-align: center;
+}
+
+.MyCreations-PetrolOrDiesel-Mid {
+  background-color: #ffffff;
+  height: 3300px;
+  text-align: center;
+}
+
+.MyCreations-Yoga-Mid{
+  background-color: #ffffff;
+  height: 3580px;
+  text-align: center;
+}
+
+.MyCreations-Mid{
+  background-color: #ffffff;
+  height: 480px;
+  text-align: center;
+}
+
+.Blog-row-1{
+  background-color: #ff6363;
+  height: 600px;
+  display: block;
+  margin: 0;
+}
+
+.MyCreations-row-1{
+  background-color: #5c2a9d;
+  height: 700px;
+  display: block;
+  margin: 0;
+}
+
+.MyCreations-row-2{
+  background-color: #ff5151;
+  height: 700px;
+  display: block;
+  margin: 0;
+}
+
+.Mid {
+  background-color: #ffffff;
+  height: 2450px;
+  text-align: center;
+}
+
+.Contact {
+  background-color: #333333;
+  padding: 50px 0 20px;
+}
+
+.MyProfilePic {
+  padding-top: 100px;
+  width: 12%;
+}
+
+.MyIntro {
+  line-height: 1.5;
+  margin: auto;
+  width: 30%
+}
+
+.Skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.Programmer-img{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.focus-img{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.team-img{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Anathinking-img{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.Entrepreneurial-img{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Photography-img{
+  margin: 50px 40px 50px 40px;
+  width: 8%
+}
+
+.Jogging-img{
+  margin: 50px 40px 50px 40px;
+  width: 9%
+}
+
+.Traveling-img{
+  margin: 50px 40px 50px 40px;
+  width: 10%
+}
+
+.Cycling-img{
+  margin: 50px 40px 50px 40px;
+  width: 10%
+}
+
+.Cooking-img{
+  margin: 50px 40px 50px 40px;
+  width: 10%
+}
+
+.copy-right-text{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.navbar-ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-li{
+  display: inline-block;
+  float: right;
+  padding-top: 50px;
+}
+
+.Nav-bar-div{
+  margin: 0 100px 0;
+  border-top: 50px;
+}
+
+.MyBlogHeaderPic{
+  padding-top: 100px;
+  width: 8%;
+}
+
+.MyCreationsHeaderPic{
+  padding-top: 100px;
+  width: 8%;
+}
+
+.competitor-img{
+  width: 40%;
+  padding-top: 100px;
+  border-radius: 10px;
+  }
+
+.Post{
+  margin-top: 100px
+}
+
+.Competitiveimg-post{
+  width: 50%;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.MyProfilePic-post{
+  width: 4%;
+}
+
+.post-p{
+  color: #888888;
+}
+
+.Post-text-div{
+  line-height: 2;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.calculator-img{
+  width: 34%;
+  padding-top: 100px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.calculator-text-img{
+  width: 70%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.calculator_Example-img{
+  width: 40%;
+  padding-top: 100px;
+  border-radius: 10px;
+}
+
+.calculator-text_Example-img{
+  width: 70%;
+  padding-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.MyCreations-post-image{
+  text-align: center;
+}
+
+.MyCreations-post-image-YogaDiv{
+  text-align: center;
+}
+
+.YogaSession-img1{
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.YogaSession-img2{
+  width: 60%;
+  height: 600px;
+  object-fit:contain;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.ABB-img{
+  width: 30%;
+  height: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.BR-img{
+  width: 20%;
+  height: 20%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Bosch-img{
+  width: 50%;
+  height: 50%;
+}
+
+.Siemens-img{
+  width: 50%;
+  height: 50%;
+  margin-top: 10px;
+  }
+
+.MyStatisticsDiv{
+  width: 20%;
+  margin: 10px;
+  display: inline-block;
+  background-color: #ecf4f3;
+  border-radius: 10px;
+  padding: 25px;
+  height: 250px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.flagimages{
+  width: 15%;
+  }
+
+.BrandsDivABBBR{
+  display: flex;
+  justify-content: center;
+}
+
+.BrandsDiv{
+  margin-top: 10px;
+}
+
+.AllStatisticsDiv{
+  display: flex;
+  justify-content: center;
+}
+
+.button1 {
+  background-color: #66BFBF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+}
+
+.button1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.contactCalculator{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.UserProfilepic{
+  width: 20%;
+  border-radius: 50%;
+}
+
+.UsersFeedbackCalc-div{
+  text-align: center;
+  justify-content: center;
+}
+
+.UserFeedbacks-Car{
+  display: flex;
+
+}
+
+.NinadFeedback{
+  background-color: #def4f0;
+  width: 50%;
+  padding: 25px;
+  margin: 20px;
+}
+
+.HarshadFeedback{
+  background-color: #def4f0;
+  width: 50%;
+  padding: 25px;
+  margin: 20px;
+}
+
+.FeatureTableDiv{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.FeatureTable{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.FeatureTableStatge1{
+  width: 50%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th{
+  text-align: center;
+  background-color: #ff6363;
+}
+
+table, th, td{
+  border: 1px solid #000;
+  border-collapse: collapse;
+  font-family:font-family: 'Montserrat', sans-serif;
+}
+
+th, td{
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even){
+  background: #fff;
+}
+
+tr:nth-child(odd){
+  background: #ddd;
+}
+
+.TableCaptionDiv{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+
+caption{
+  font-family: font-family: 'Montserrat', sans-serif;
+}
