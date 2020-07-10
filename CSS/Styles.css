@@ -8,10 +8,22 @@ body{
 }
 
 /*Global*/
-.container{
+.container-long{
   width: 80%;
   margin: auto;
   overflow: hidden;
+}
+
+.container-short{
+  width: 40%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container-long-statistics{
+  width: 80%;
+  margin: auto;
+  display: table;
 }
 
 ul{
@@ -68,10 +80,12 @@ header a:hover{
 #SayHello {
   min-height: 400px;
   text-align: center;
+  padding: 20px;
 }
 
 #SayHello h1{
   font-size:40px;
+  color: #66BFBF;
 }
 
 #SayHello p{
@@ -80,27 +94,77 @@ header a:hover{
 
 #AboutMeProfPic{
   width: 180px;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 
 /*Statistics section*/
 #MyStatistics{
-  margin-top: 20px;
+  margin-top: 50px;
   text-align: center;
 }
 
 #MyStatistics .StatBox{
-  float: left;
-  text-align: center;
-  width: 20%;
-  padding: 10px;
-}
+  display: table-cell;
+  }
 
 #MyStatistics .StatBox img{
   width: 70px;
 }
 
+#MyStatistics p{
+  font-size:20px;
+}
+
+
+/*Values I bring*/
+#ValueIBring {
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+#ValueIBring img{
+  width: 80px;
+}
+
+#ValueIBring .ValueBox{
+  padding: 10px;
+}
+
+#ValueIBring h1{
+  font-size:40px;
+  color: #66BFBF;
+}
+
+#ValueIBring p{
+  font-size:20px;
+}
+
+/*Things I do in my free time*/
+#Freetime {
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+#Freetime img{
+  width: 100px;
+}
+
+#Freetime .Freetimebox{
+  display: inline-block;     /*Changed from float*/
+  text-align: center;
+  width: 15%;
+  padding: 10px;
+}
+
+#Freetime h1{
+  font-size:40px;
+  color: #66BFBF;
+}
+
+/*footer*/
 footer{
   padding: 20px;
   margin-top: 20px;
@@ -119,55 +183,56 @@ footer a:hover{
   text-decoration: underline;
 }
 
-/*Values I bring*/
-#ValueIBring {
-  margin-top: 20px;
-  padding: 20px;
-  text-align: center;
-}
-
-#ValueIBring img{
-  width: 80px;
-}
-
-#ValueIBring .ValueBox{
-  padding: 10px;
-}
-
-/*Things I do in my free time*/
-#Freetime {
-  margin-top: 20px;
-  padding: 20px;
-  text-align: center;
-}
-
-#Freetime img{
-  width: 100px;
-}
-
-#Freetime .Freetimebox{
-  float: left;
-  text-align: center;
-  width: 15%;
-  padding: 10px;
-}
+/*To resize*/
 
 @media (max-width: 768px) {
   header #MyName,
   header nav,
-  header nav li,
-  #MyStatistics .StatBox,
-  #Freetime .Freetimebox{
+  header nav li{
     float: none;
     text-align: center;
     width: 100%;
   }
 
-  header{
-    padding: 20px;
+  #MyStatistics .StatBox,
+  #Freetime .Freetimebox,
+  .container-short,
+  .container-long,
+  .container-long-statistics{
+    display: block;
+    text-align: center;
+    width: 100%;
   }
 
-  #SayHello img{
-    margin-top: 40px;
+  header a{
+    text-transform: uppercase;
+    font-size: 15px;
   }
+
+
+  header{
+    padding-bottom: 20px;
+  }
+
+
+  #SayHello img{
+    margin-top: 20px;
+    width: 140px;
+  }
+
+  #SayHello h1,
+  #ValueIBring h1,
+  #Freetime h1{
+      font-size: 35px;
+  }
+
+  #MyStatistics .StatBox{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    }
+
+    footer a{
+      padding: 15px;
+    }
+
 }
