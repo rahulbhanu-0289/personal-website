@@ -226,7 +226,8 @@ footer a:hover{
       font-size: 35px;
   }
 
-  #MyStatistics .StatBox{
+  #MyStatistics .StatBox,
+  #ValueIBring .ValueBox{
     margin-top: 70px;
     margin-bottom: 70px;
     }
