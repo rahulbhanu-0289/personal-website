@@ -30,6 +30,7 @@ body{
   width: 80%;
   margin: auto;
   display: table;
+  overflow: hidden;
 }
 
 .Contactmebutton{
@@ -270,6 +271,7 @@ footer a:hover{
 #ActualPostIntro{
   text-align: center;
   margin-top: 60px;
+  padding: 10px;
 }
 
 #ActualPostIntro h1{
@@ -281,6 +283,10 @@ footer a:hover{
   width: 60px;
 }
 
+#main {
+  padding: 20px;
+}
+
 #maintext p{
   font-size:20px;
 }
@@ -288,26 +294,33 @@ footer a:hover{
 #Calculatormaintext{
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 800px;
+  width: 400px;
   border-radius: 10px;
 }
 
 #Testimonials{
-  margin-top: 60px;
+  margin-top: 50px;
   text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
 }
 
-#Testimonials .StatBox{
-  display: table-cell;
+#Testimonials .TestimonialBox{
+  padding: 20px;
   }
 
-#Testimonials .StatBox img{
+#Testimonials .TestimonialBox img{
   width: 100px;
   border-radius: 50%;
 }
 
 #Testimonials p{
   font-size:20px;
+}
+
+#Testimonials h1{
+  font-size:40px;
+  color: #66BFBF;
 }
 
 /*To resize*/
@@ -325,7 +338,8 @@ footer a:hover{
   #Freetime .Freetimebox,
   .container-short,
   .container-long,
-  .container-long-statistics{
+  .container-long-statistics,
+  .maintextimagebox{
     display: block;
     text-align: center;
     width: 100%;
@@ -349,7 +363,9 @@ footer a:hover{
 
   #SayHello h1,
   #ValueIBring h1,
-  #Freetime h1{
+  #Freetime h1,
+  #ActualPostIntro h1,
+  #Testimonials h1{
       font-size: 35px;
   }
 
@@ -391,5 +407,14 @@ footer a:hover{
       width: 100px;
       margin-top: 20px;
     }
+
+    #ActualPostIntro{
+      text-align: center;
+      margin-top: 30px;
+   }
+
+   #Calculatormaintext{
+     width: 270px;
+   }
 
 }
