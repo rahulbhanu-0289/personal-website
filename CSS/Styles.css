@@ -323,6 +323,22 @@ footer a:hover{
   color: #66BFBF;
 }
 
+/*YogaSessionText*/
+
+#YogaMVPtext{
+  width: 600px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#YogaSessiontext{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  border-radius: 10px;
+}
+
 /*To resize*/
 
 @media (max-width: 768px) {
@@ -414,6 +430,14 @@ footer a:hover{
    }
 
    #Calculatormaintext{
+     width: 270px;
+   }
+
+   #YogaMVPtext{
+     width: 270px;
+   }
+
+   #YogaSessiontext{
      width: 270px;
    }
 
