@@ -1,90 +1,87 @@
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <title>Rahul Bhanu</title>
+  <title>Rahul Bhanu | Welcome</title>
   <link rel="stylesheet" href="CSS/Styles.css">
-  <link rel="icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100;400&family=Sacramento&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width">
 </head>
 
 <body>
-  <div class="Nav-bar-div">
-    <nav class="Navbar">
-      <ul class="navbar-ul">
-        <li class="navbar-li">
-          <a class="nav-a" href="My Creations.html">My Creations</a>
-        </li>
-        <li class="navbar-li">
-          <a class="nav-a" href="Blogs.html">Blogs</a>
-        </li>
-        <li class="navbar-li">
-          <a class="nav-a" href="index.html">About me</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-  <div class="MyCreations-Header">
-    <h1>My Creations</h1>
-  </div>
-  <div class="MyCreations-PetrolOrDiesel-Mid">
-    <h2 class="h2-post">"How I solved: Should I buy a petrol or diesel car?"</h2>
-    <img class="MyProfilePic-post" src="images/MyProfilePicture.png" alt="MyProfilePicture">
-    <p class="post-p">Rahul Bhanu, May 2020</p>
-    <div class="Post-text-div">
-      <p>Towards the end of 2015, my wife and I were planning to buy our first car. Following days of research, we came up with our top 3 prioritized choices. After the test drives, of course, we had lots of debates & discussions, but in the end, we
-        finalized on Volkswagen’s Vento car model. Being 100% sure that I made the right choice, there was one thing which was not very clear to me: Should I buy a petrol or diesel variant of the car?</p>
-      <p>This question came up concerning the Indian market context, where diesel car variants are costlier than petrol variants however diesel prices are cheaper than petrol prices. As usual, I opened Google and started doing my research. Although I
-        found some information online, it was not sufficient to answer the question I had. As an additional source to my research, I asked some of my family members, friends, and colleagues about it. I got a lot of different guesses & opinions, none
-        of which answered my question, “should I buy a petrol or diesel variant of the car”. I concluded that deciding between car variants seemed to be a valid problem faced by many other people as well. This triggered the problem-solving part of my
-        brain and I took it up as a challenge to find the solution.</p>
-      <p>I started thinking in detail about the problem I am trying to solve and brainstormed on possible alternative solutions and how I could design the right solution. In the process, I recognized that this decision of choosing between the car
-        variants involves broadly two categories of factors. Market factors (petrol & diesel price difference, the difference in prices of car models etc.) & User factors (monthly car mileage, number of years user wishes to use the same car etc.).
-        Considering heterogeneous answers to these factors and looking at the target user group, I decided to build a calculator that would simplify the user’s decision-making process. My obvious choice to build this calculator was excel as it is not
-        only easily accessible but also users can edit it depending on their special factors. After a few iterations & feedbacks from test users, I finalized the first version of my product.</p>
-      <div class="MyCreations-post-image">
-        <img class="calculator-text-img" src="images/Calculator.png" alt="Calculator">
+  <header>
+    <div class="container-long">
+      <div id="MyName">
+        <h1><span class="highlight">R</span>B</h1>
       </div>
-      <p>This simple product was successful among my peers and personal network. Developing this product, I got the satisfaction of creating something that everyone around me could benefit from.</p>
-      <p>(PS: This tool got me my dream car, Volkswagen’s Vento Petrol.)</p>
-      <p>Get it in touch with me if you want the product for free!</p>
-      <div class="MyCreations-post-image">
-        <img class="calculator-text_Example-img" src="images/Calculator_Example.png" alt="Calculator">
+      <nav>
+        <ul>
+          <li> <a href="index.html">About</a> </li>
+          <li> <a href="Blogs.html">Blogs</a> </li>
+          <li class="current"> <a href="MyCreations.html">Creations</a> </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="ActualPostIntro">
+    <div class="container-long">
+      <h1>"How I solved: Should I buy a petrol or diesel car?"</h1>
+      <img id="ActualPostIntroProfPic" src="images/MyProfilePicture.png" alt="ActualPostIntroProfPic">
+      <p>Rahul Bhanu, May 2020</p>
+    </div>
+  </section>
+
+  <section id="main">
+    <div class="container-long">
+      <article id="maintext">
+        <p>Towards the end of 2015, my wife and I were planning to buy our first car. Following days of research, we came up with our top 3 prioritized choices. After the test drives, of course, we had lots of debates & discussions, but in the end, we
+          finalized on Volkswagen’s Vento car model. Being 100% sure that I made the right choice, there was one thing which was not very clear to me: Should I buy a petrol or diesel variant of the car?</p>
+        <p>This question came up concerning the Indian market context, where diesel car variants are costlier than petrol variants however diesel prices are cheaper than petrol prices. As usual, I opened Google and started doing my research. Although I
+          found some information online, it was not sufficient to answer the question I had. As an additional source to my research, I asked some of my family members, friends, and colleagues about it. I got a lot of different guesses & opinions, none
+          of which answered my question, “should I buy a petrol or diesel variant of the car”. I concluded that deciding between car variants seemed to be a valid problem faced by many other people as well. This triggered the problem-solving part of my
+          brain and I took it up as a challenge to find the solution.</p>
+        <p>I started thinking in detail about the problem I am trying to solve and brainstormed on possible alternative solutions and how I could design the right solution. In the process, I recognized that this decision of choosing between the car
+          variants involves broadly two categories of factors. Market factors (petrol & diesel price difference, the difference in prices of car models etc.) & User factors (monthly car mileage, number of years user wishes to use the same car etc.).
+          Considering heterogeneous answers to these factors and looking at the target user group, I decided to build a calculator that would simplify the user’s decision-making process. My obvious choice to build this calculator was excel as it is not
+          only easily accessible but also users can edit it depending on their special factors. After a few iterations & feedbacks from test users, I finalized the first version of my product.</p>
+      </article>
+      <div class="maintextimagebox">
+        <img id="Calculatormaintext" src="images\Calculator_mobile_v.png" alt="Calculator">
       </div>
-      <div class="contactCalculator">
-        <a class="button1" href="mailto:rahul.bhanu@outlook.com">Contact me to get the tool</a>
-      </div>
-      <hr>
-      <div class="UsersFeedbackCalc-div">
-        <h2>What users of this tool say?</h2>
-        <div class="UserFeedbacks-Car">
-          <div class="NinadFeedback">
-            <img class="UserProfilepic" src="https://media-exp1.licdn.com/dms/image/C5103AQGfOAhWMY_g9A/profile-displayphoto-shrink_800_800/0?e=1599091200&v=beta&t=XQx2yEbTpEmMdAURwuoIZZaSjQ1gepLNMl-a_lPLuD8" alt="NinadDeshpandeProfilepic">
-            <p class="post-p">Ninad Deshpande</p>
-            <p class="post-p">Head of Marketing at B&R India</p>
-            <p>"Buying a car is always a dilemma right from the choice of brand, the type of fuel (petrol or diesel) and finally price. Well, Rahul was my go-to person for anything related to cars and he perfectly assisted me in taking a correct decision
-              on buying petrol or diesel. With a user-friendly tool he had developed provided the right analysis. Without this tool, I am sure I would be lost and would not have been able to make the right choice.
-              Post my experience with his consent I have shared it with a couple of friends who too have benefited from it. Kudos Rahul for making decision making in the process of buying cars easy."</p>
-          </div>
-          <div class="HarshadFeedback">
-            <img class="UserProfilepic" src="https://media-exp1.licdn.com/dms/image/C5103AQHXXdi-ecUZow/profile-displayphoto-shrink_400_400/0?e=1599091200&v=beta&t=IdC19-YjkwMm9hUTs_fUlskQcwAs2kxKUDPgCuxEZUo" alt="NinadDeshpandeProfilepic">
-            <p class="post-p">Harshad Palande</p>
-            <p class="post-p">Automation Engineer at Alfa Laval</p>
-            <p>"In 2015, I bought my first car, best fitting to my budget and till that time I was pretty confident that diesel variant is the best value for money. When Rahul shared this tool with me, I realized that the diesel variant is not always the best value for money. It depends upon several factors which the calculator considers. I shared my experience and this tool among my friends. I was happy to see my friends not struggling to decide between diesel and petrol variants. This tool also helped in eliminating the assumption that the low cost of diesel in the market makes it beneficial to buy diesel cars. This became even more evident to me when I saw that Maruti Suzuki, one of the largest carmakers in India, nowadays advertising to calculate benefits before one buys diesel variant. Rahul had already foreseen this."</p>
-          </div>
-        </div>
+      <article id="maintext">
+        <p>This simple product was successful among my peers and personal network. Developing this product, I got the satisfaction of creating something that everyone around me could benefit from.</p>
+        <p>(PS: This tool got me my dream car, Volkswagen’s Vento Petrol.)</p>
+        <p>Get it in touch with me if you want the product for free!</p>
+      </article>
+      <div class="maintextimagebox">
+        <img id="Calculatormaintext" src="images/Calculator_Example_mob.png" alt="Calculatorexample">
       </div>
     </div>
-  </div>
-  <div class="Contact">
-    <a class='footer-link' href="https://www.linkedin.com/in/rahul-bhanu/">LinkedIn</a>
-    <a class='footer-link' href="https://twitter.com/RahulBhanu13">Twitter</a>
-    <a class='footer-link' href="https://www.instagram.com/rahulbhanu09/">Instagram</a>
-    <p class="copy-right-text">© 2020 Rahul Bhanu</p>
-  </div>
-</body>
+  </section>
 
-</html>
+  <section id="Testimonials">
+    <h1>What users of this tool say?</h1>
+    <div class="container-long">
+      <div class="TestimonialBox">
+        <img src="https://media-exp1.licdn.com/dms/image/C5103AQGfOAhWMY_g9A/profile-displayphoto-shrink_800_800/0?e=1599091200&v=beta&t=XQx2yEbTpEmMdAURwuoIZZaSjQ1gepLNMl-a_lPLuD8" alt="NinadDeshpandeProfilepic">
+        <h2>Ninad Deshpande</h2>
+        <h3>Head of Marketing at B&R India</h3>
+        <p>"Buying a car is always a dilemma right from the choice of brand, the type of fuel (petrol or diesel) and finally price. Well, Rahul was my go-to person for anything related to cars and he perfectly assisted me in taking a correct decision
+          on buying petrol or diesel. With a user-friendly tool he had developed provided the right analysis. Without this tool, I am sure I would be lost and would not have been able to make the right choice.
+          Post my experience with his consent I have shared it with a couple of friends who too have benefited from it. Kudos Rahul for making decision making in the process of buying cars easy."</p>
+      </div>
+      <div class="TestimonialBox">
+        <img src="https://media-exp1.licdn.com/dms/image/C5103AQHXXdi-ecUZow/profile-displayphoto-shrink_400_400/0?e=1599091200&v=beta&t=IdC19-YjkwMm9hUTs_fUlskQcwAs2kxKUDPgCuxEZUo" alt="NinadDeshpandeProfilepic">
+        <h2>Harshad Palande</h3>
+        <h3>Automation Engineer at Alfa Laval</h3>
+        <p>"In 2015, I bought my first car, best fitting to my budget and till that time I was pretty confident that diesel variant is the best value for money. When Rahul shared this tool with me, I realized that the diesel variant is not always the best value for money. It depends upon several factors which the calculator considers. I shared my experience and this tool among my friends. I was happy to see my friends not struggling to decide between diesel and petrol variants. This tool also helped in eliminating the assumption that the low cost of diesel in the market makes it beneficial to buy diesel cars. This became even more evident to me when I saw that Maruti Suzuki, one of the largest carmakers in India, nowadays advertising to calculate benefits before one buys diesel variant. Rahul had already foreseen this."</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <a href="https://www.linkedin.com/in/rahul-bhanu/">LinkedIn</a>
+    <a href="https://twitter.com/RahulBhanu13">Twitter</a>
+    <a href="https://www.instagram.com/rahulbhanu09/">Instagram</a>
+    <p>© 2020 Rahul Bhanu</p>
+  </footer>
