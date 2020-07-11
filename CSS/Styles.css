@@ -14,6 +14,12 @@ body{
   overflow: hidden;
 }
 
+.maintextimagebox{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
 .container-short{
   width: 40%;
   margin: auto;
@@ -24,6 +30,13 @@ body{
   width: 80%;
   margin: auto;
   display: table;
+}
+
+.Contactmebutton{
+  height: 30px;
+  background-color: #333333;
+  color: #ffffff;
+  border: 0;
 }
 
 ul{
@@ -167,7 +180,6 @@ header a:hover{
 /*footer*/
 footer{
   padding: 20px;
-  margin-top: 20px;
   background-color: #333333;
   color:#ffffff;
   text-align: center;
@@ -181,6 +193,121 @@ footer a{
 
 footer a:hover{
   text-decoration: underline;
+}
+
+/*MyCreations-Page*/
+#MyCreationsLogo{
+  width: 140px;
+  margin-top: 60px;
+}
+
+#Creation1 {
+  min-height: 400px;
+  text-align: center;
+  padding: 20px;
+  background-color: #5c2a9d;
+}
+
+#Creation1 h1{
+  font-size:40px;
+  color: #ffffff;
+}
+
+#Creation1 h2{
+  font-size:25px;
+  color: #ffffff;
+}
+
+#Creation1 p{
+  font-size:20px;
+  color: #ffffff;
+}
+
+#Creation1 a{
+  text-decoration: none;
+}
+
+#Creation1 img{
+  margin-top: 20px;
+  width: 440px;
+  border-radius: 10px;
+}
+
+
+#Creation2 {
+  min-height: 400px;
+  text-align: center;
+  padding: 20px;
+  background-color: #ff5151;
+}
+
+#Creation2 h1{
+  font-size:40px;
+  color: #ffffff;
+}
+
+#Creation2 h2{
+  font-size:25px;
+  color: #ffffff;
+}
+
+#Creation2 p{
+  font-size:20px;
+  color: #ffffff;
+}
+
+#Creation2 a{
+  text-decoration: none;
+}
+
+#Creation2 img{
+  margin-top: 20px;
+  width: 440px;
+  border-radius: 10px;
+}
+
+/*Diesel Petrol blog post*/
+#ActualPostIntro{
+  text-align: center;
+  margin-top: 60px;
+}
+
+#ActualPostIntro h1{
+  font-size:40px;
+  color: #66BFBF;
+}
+
+#ActualPostIntroProfPic{
+  width: 60px;
+}
+
+#maintext p{
+  font-size:20px;
+}
+
+#Calculatormaintext{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 800px;
+  border-radius: 10px;
+}
+
+#Testimonials{
+  margin-top: 60px;
+  text-align: center;
+}
+
+#Testimonials .StatBox{
+  display: table-cell;
+  }
+
+#Testimonials .StatBox img{
+  width: 100px;
+  border-radius: 50%;
+}
+
+#Testimonials p{
+  font-size:20px;
 }
 
 /*To resize*/
@@ -215,7 +342,7 @@ footer a:hover{
   }
 
 
-  #SayHello img{
+  #AboutMeProfPic{
     margin-top: 20px;
     width: 140px;
   }
@@ -234,6 +361,35 @@ footer a:hover{
 
     footer a{
       padding: 15px;
+    }
+
+    #Creation1Img{
+      display: none;
+    }
+
+    #Creation2Img{
+      display: none;
+    }
+
+    #Creation1 h1,
+    #Creation1 h1{
+        font-size: 35px;
+    }
+
+    #Creation1 h2,
+    #Creation2 h2{
+      font-size:20px;
+      color: #ffffff;
+    }
+
+    #Creation1 p,
+    #Creation2 p{
+      font-size:15px;
+    }
+
+    #MyCreationsLogo {
+      width: 100px;
+      margin-top: 20px;
     }
 
 }
