@@ -230,7 +230,7 @@ footer a:hover{
 
 #Creation1 img{
   margin-top: 20px;
-  width: 440px;
+  width: 300px;
   border-radius: 10px;
 }
 
@@ -263,7 +263,7 @@ footer a:hover{
 
 #Creation2 img{
   margin-top: 20px;
-  width: 440px;
+  width: 300px;
   border-radius: 10px;
 }
 
@@ -339,6 +339,97 @@ footer a:hover{
   border-radius: 10px;
 }
 
+
+/*Blogs-Page*/
+#MyBlogsLogo{
+  width: 140px;
+  margin-top: 60px;
+}
+
+#Blog1 {
+  min-height: 400px;
+  text-align: center;
+  padding: 20px;
+  background-color: #6915cf;
+}
+
+#Blog1 h1{
+  font-size:40px;
+  color: #ffffff;
+}
+
+#Blog1 h2{
+  font-size:25px;
+  color: #ffffff;
+}
+
+#Blog1 p{
+  font-size:20px;
+  color: #ffffff;
+}
+
+#Blog1 a{
+  text-decoration: none;
+}
+
+#Blog1 img{
+  margin-top: 20px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+
+#Blog2 {
+  min-height: 400px;
+  text-align: center;
+  padding: 20px;
+  background-color: #f39422;
+}
+
+#Blog2 h1{
+  font-size:40px;
+  color: #ffffff;
+}
+
+#Blog2 h2{
+  font-size:25px;
+  color: #ffffff;
+}
+
+#Blog2 p{
+  font-size:20px;
+  color: #ffffff;
+}
+
+#Mantra {
+  font-weight: bold;
+}
+
+#Blog2 a{
+  text-decoration: none;
+}
+
+#Blog2 img{
+  margin-top: 20px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+/*Competitive analysis blog*/
+#Stages{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#FeatureTable,
+#FeatureTableStage1,
+#FeatureTableStage2{
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
 /*To resize*/
 
 @media (max-width: 768px) {
@@ -395,31 +486,37 @@ footer a:hover{
       padding: 15px;
     }
 
-    #Creation1Img{
-      display: none;
-    }
-
-    #Creation2Img{
+    #Creation1Img,
+    #Creation2Img,
+    #Blog1Img,
+    #Blog2Img {
       display: none;
     }
 
     #Creation1 h1,
-    #Creation1 h1{
+    #Creation1 h1,
+    #Blog1 h1,
+    #Blog1 h1{
         font-size: 35px;
     }
 
     #Creation1 h2,
-    #Creation2 h2{
+    #Creation2 h2,
+    #Blog1 h2,
+    #Blog2 h2{
       font-size:20px;
       color: #ffffff;
     }
 
     #Creation1 p,
-    #Creation2 p{
+    #Creation2 p,
+    #Blog1 p,
+    #Blog2 p{
       font-size:15px;
     }
 
-    #MyCreationsLogo {
+    #MyCreationsLogo,
+    #MyBlogsLogo {
       width: 100px;
       margin-top: 20px;
     }
@@ -438,6 +535,12 @@ footer a:hover{
    }
 
    #YogaSessiontext{
+     width: 270px;
+   }
+
+   #FeatureTable,
+   #FeatureTableStage1,
+   #FeatureTableStage2{
      width: 270px;
    }
 
